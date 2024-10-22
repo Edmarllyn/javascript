@@ -6,4 +6,4 @@ console.log(investimentoMensal);
 
 console.log(`O valor investido no mês de Janeiro foi:  ${investimentoMensal[4]}`);
 
-//javascript arrays
+//javascript arraysed
