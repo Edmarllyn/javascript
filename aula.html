@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicío</title>
+    </head>
+    <body>
+        <h1>Exercício 01</h1>
+        <p>Testando meu primeiro Exercício</p>
+
+        <script> 
+        //  alert('Minha primeira mensagem'); /*funciona para mandar um alerta*/
+        //  confirm("Ganharam no vôlei hoje?"); /*funciona para vodê confirmar*/
+        //  prompt('qual é o seu nome?');
+
+
+
+        /*sinal de "=" se chama de "RECEBE"*/
+        let nome = prompt('Qual é o seu nome?');
+        alert ('É um prazer te conhecer ' + nome);
+
+        let idade = prompt('Qual é a sua idade?');
+        alert ('Então você tem ' + idade);
+
+        let telefone = prompt(' Qula é seu número de telefone?');
+        alert ('Confirma seu número: ' + telefone);
+
+        let lugar = prompt('De onde você é?');
+        alert ('Então você venho de ' + lugar);
+
+        let email = prompt('Digite seu email');
+        alert ('Seu email é ' + email);
+
+        confirm ('Me confirma os seus dados, ' + nome + ',' + idade + ',' + telefone + ',' + lugar + ',' + email)
+
+        //let => Significa que o valor da sua variável pode ser alterada sem problema de semântica dentro do JavaScript, ou seja, podemos declarar para receber algum valor e, específico naquele momento, mas que depois ser alterado.
+
+        //const = Significa que o valor da sua variavel deverá serCONSTANTE durante toda a construção do Script, ou seja, o valor deverá ser constante e não pode ser alterado.
+
+        </script>
+
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <script>
+            // Desenvolve uma central de atendimento para um BANCO, onde os clientes precisam se identificar, com suas informações pessoais, e o tipo de conta em que trabalha, e quais são as dúvidas sobre atendimento.
+
+            // Lembre-se que precisa ter um raciocínio lógico de um atendimento
+
+            let nome = prompt('Qual é o seu nome? e se tiver segundo nome digite também');
+            let sobrenome = prompt('Qual é seu sobrenome');
+            alert ('Seja muito Bem-Vindo ' + nome + ' ' + sobrenome);
+
+            let idade = prompt('Qual é a sua Idade?');
+            alert ('Então você tem ' + idade + ' Anos');
+
+            let numero = prompt('Digite o Número do seu telefone junto com o DDD:');
+            confirm ('Confirma seu telefone '+ numero);
+
+            let email = prompt('Digite seu e-mail:');
+            confirm ('Verifique se o seu e-mail está certo: ' + email);
+
+            let cartao = prompt('Digite o número do cartão')
+            confirm ('Verifique se está certo: ' + cartao)
+
+            let cpf = prompt('Digite seus 3 últimos digito do seu CPF:');
+            confirm ('Confirme se os números estão corretos: ' + cpf);
+
+            let conta = prompt('Qual tipo de conta que o senhor(a) tem, Corrente ou Juridica?');
+            alert ('Conta ' + conta);
+
+            let duvida = prompt('Qual é a sua dúvida? Ou no que posso te ajudar?');
+            alert ('Por gentileza fique no aguardo que já entramos em contato com o Senhor(a)');
+
+        </script>
+
+    </body>
+</html>
