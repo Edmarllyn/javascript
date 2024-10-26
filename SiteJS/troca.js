@@ -20,3 +20,4 @@ function trocarCor() {
         document.getElementById("toggleButton").textContent = "Modo Claro";
     }
 }
+//ed
